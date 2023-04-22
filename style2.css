@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(19, 38, 32);
+}
+header {
+  height: 40vh;
+  /*   border: 2px solid red; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.166), rgba(0, 0, 0, 0.166)),
+    url(./pexels-photo-12988675.jpeg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /*   background-position-y: 120%;
+  background-repeat: no-repeat; */
+  position: relative;
+}
+p {
+  width: 60%;
+}
+form {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 200px;
+  z-index: 0;
+}
+
+select {
+  border: 0;
+  width: 30%;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+span {
+  background: linear-gradient(160deg, #85ffbd, #fffb7d);
+  -webkit-background-clip: text;
+  color: transparent;
+}
